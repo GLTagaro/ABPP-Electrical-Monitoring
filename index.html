@@ -159,8 +159,8 @@
     
     <script>
         // !! IMPORTANT !!
-        // Your Apps Script Web App URL has been added here.
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbz3hqobevxmDZuqXCtWFfEoj0XpHiBk6RzATUDoB_r7BgZDDvQo8PaVuxT8QhoHizGS/exec';
+        // Your Apps Script Web App URL has been updated to the new deployment.
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKTTVmmHK-TB_YqxXjjtAI4hGkBqcCKNvLMT3BO3LaXTqtCkFq-8rNnvosAkcFlJAT/exec';
     
         // The spreadsheet ID for your publicly published Google Sheet
         const spreadsheetId = '2PACX-1vTvMkhVlirDHrhIjD-5UjcEaznuKDxGr3ytRBUNCGeEoJ41kCCoJsFO4RmYq-M3AlViIDuDB7S_vdCa';
@@ -367,7 +367,7 @@
 
         async function submitForm(event) {
             event.preventDefault();
-            console.log('Attempting to submit form...'); // <--- DEBUGGING LINE
+            console.log('Attempting to submit form...');
             
             const action = document.getElementById('form-action').value;
             const key = document.getElementById('form-key').value;
